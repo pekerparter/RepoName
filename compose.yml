@@ -1,7 +1,7 @@
 services:
     app:
         # TODO: Change the image to your own image
-        image: ghcr.io/sdegroup5/github-actions/app:latest
+        image: ghcr.io/pekerparter/reponame/app:v1.0.0
         container_name: github-action-app
         ports:
         - "5000:5000"
